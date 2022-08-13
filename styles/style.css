@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 2rem 1rem;
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  box-shadow: 0em 1em 2em rgba(0, 0, 0, 0.638);
+}
+
+.img-top {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-top img {
+  width: 100%;
+  display: block;
+}
+
+.img-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  display: none;
+  cursor: pointer;
+}
+
+.img-overlay img {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.img-top:hover .img-overlay {
+  display: block;
+}
+
+h1 a{
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 21px;
+  padding: 20px 0;
+  display: inline-block;
+}
+
+h1 a:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+
+p {
+  color: hsl(215, 51%, 70%);
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.price p {
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price p:nth-of-type(1) {
+  color: hsl(178, 100%, 50%);
+}
+
+.price p:nth-of-type(2) {
+  color: hsl(215, 51%, 70%);
+}
+
+.price img {
+  padding-right: 0.1em;
+}
+
+.divider p {
+  background-color: hsl(215, 32%, 27%);
+  height: 1px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.profile h3 {
+  font-weight: 400;
+  font-size: 1em;
+  color: hsl(215, 51%, 70%);
+}
+
+.profile a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.profile img {
+  width: 30px;
+  border-radius: 50px;
+  border: 1px solid hsl(0, 0%, 100%);
+  margin-right: 0.5em;
+}
+
+.profile a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
