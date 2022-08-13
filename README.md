@@ -29,4 +29,5 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 - [x] Semantic HTML5 Markup
 - [x] Flexbox
 
+
 **Have fun building!** 🚀
