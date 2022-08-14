@@ -78,6 +78,7 @@ h1 a:hover{
 
 p {
   color: hsl(215, 51%, 70%);
+  font-weight: 300;
 }
 
 .price {
@@ -103,21 +104,17 @@ p {
 }
 
 .price img {
-  padding-right: 0.1em;
-}
-
-.divider p {
-  background-color: hsl(215, 32%, 27%);
-  height: 1px;
+  padding-right: 0.5em;
 }
 
 .profile {
   display: flex;
   align-items: center;
-  margin-top: 1em;
+  border-top: 1px solid hsl(215, 32%, 27%);
 }
 
-.profile h3 {
+.profile p {
+  margin-top: 1em;
   font-weight: 400;
   font-size: 1em;
   color: hsl(215, 51%, 70%);
@@ -128,10 +125,11 @@ p {
 }
 
 .profile img {
+  margin-top: 1em;
   width: 30px;
   border-radius: 50px;
   border: 1px solid hsl(0, 0%, 100%);
-  margin-right: 0.5em;
+  margin-right: 1em;
 }
 
 .profile a {
